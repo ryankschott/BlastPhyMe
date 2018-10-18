@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E700266-664C-4AE4-B1CE-F263619E5A0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangLab</RootNamespace>
+    <AssemblyName>ChangLab</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PASSTHROUGH_BLASTN_null</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Demo\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOCUMENTATION</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Beta\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PASSTHROUGH_BLASTN</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Documentation|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Documentation\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOCUMENTATION</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Beta\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EEB460|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EEB460\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PASSTHROUGH_BLASTN_null; EEB460</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EEB460|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\EEB460\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PASSTHROUGH_BLASTN</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta - EEB460|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Beta - EEB460\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta - EEB460|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Beta - EEB460\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bio, Version=1.1.5709.24026, Culture=neutral, PublicKeyToken=13335e9abfbf69d0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bio\1.1.5709.21498\Bio.dll</HintPath>
+    </Reference>
+    <Reference Include="Bio.WebServiceHandlers, Version=1.1.5709.24027, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bio\1.1.5709.21498\Bio.WebServiceHandlers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.14.0.0.0\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlastN\Alignment.cs" />
+    <Compile Include="BlastN\AlignmentExon.cs" />
+    <Compile Include="Common\Excel.cs" />
+    <Compile Include="Common\Exception.cs" />
+    <Compile Include="Common\ReferenceItem2.cs" />
+    <Compile Include="Common\ThirdPartyComponent.cs" />
+    <Compile Include="Genes\Feature.cs" />
+    <Compile Include="Genes\FileParsing\PhylipFileParser.cs" />
+    <Compile Include="Genes\GeneFeatureKey.cs" />
+    <Compile Include="Genes\FileParsing\NexusFileParser.cs" />
+    <Compile Include="Genes\FileParsing\TrinityOutputFileParser.cs" />
+    <Compile Include="Jobs\AlignSequencesWithMUSCLE.cs" />
+    <Compile Include="Jobs\AlignSequencesWithPRANK.cs" />
+    <Compile Include="Jobs\CommandLineAlignmentJob.cs" />
+    <Compile Include="Jobs\ExportGeneSequencesToTableFile.cs" />
+    <Compile Include="Jobs\GenerateTreeWithPhyML.cs" />
+    <Compile Include="Jobs\JobGeneStatus.cs" />
+    <Compile Include="Jobs\RunTreesAtCodeML.cs" />
+    <Compile Include="LocalDatabase\Diagnostics.cs" />
+    <Compile Include="NCBI\LocalDatabase\BlastNLocalDatabase.cs" />
+    <Compile Include="NCBI\LocalDatabase\Components.cs" />
+    <Compile Include="Jobs\BlastNAtLocalDatabase.cs" />
+    <Compile Include="Common\ApplicationProperty.cs" />
+    <Compile Include="Genes\NucleotideSequence.cs" />
+    <Compile Include="Genes\GeneSequenceType.cs" />
+    <Compile Include="Jobs\GeneProcessingJob.cs" />
+    <Compile Include="Jobs\IOPilgrimageDataFile.cs" />
+    <Compile Include="Jobs\JobStatus.cs" />
+    <Compile Include="LocalDatabase\AutoUpdate.cs" />
+    <Compile Include="NCBI\BlastNWebService.cs" />
+    <Compile Include="Common\EventArgs.cs" />
+    <Compile Include="Common\ExtensionMethods.cs" />
+    <Compile Include="Common\Range.cs" />
+    <Compile Include="Common\Reference.cs" />
+    <Compile Include="Common\XMLWebRequest.cs" />
+    <Compile Include="NCBI\GenBank\GenBankFetch.cs" />
+    <Compile Include="NCBI\GenBank\GenBankSearch.cs" />
+    <Compile Include="NCBI\GenBank\GenBankXMLParser.cs" />
+    <Compile Include="Genes\ExonOrientation.cs" />
+    <Compile Include="Genes\Gene.cs" />
+    <Compile Include="Genes\GeneSource.cs" />
+    <Compile Include="Jobs\BlastNAtNCBI.cs" />
+    <Compile Include="Jobs\GeneDirection.cs" />
+    <Compile Include="Jobs\Job.cs" />
+    <Compile Include="Jobs\JobTarget.cs" />
+    <Compile Include="LocalDatabase\DataAccess.cs" />
+    <Compile Include="Common\ReferenceItem.cs" />
+    <Compile Include="NCBI\ESearchHistory.cs" />
+    <Compile Include="NCBI\EUtilities.cs" />
+    <Compile Include="NCBI\Request.cs" />
+    <Compile Include="NCBI\ServiceFetch.cs" />
+    <Compile Include="NCBI\ServiceSearch.cs" />
+    <Compile Include="NCBI\Taxonomy\TaxonomyFetch.cs" />
+    <Compile Include="NCBI\Taxonomy\TaxonomySearch.cs" />
+    <Compile Include="NCBI\Taxonomy\TaxonomyXMLParser.cs" />
+    <Compile Include="PAML\Analysis.cs" />
+    <Compile Include="PAML\CodeML.cs" />
+    <Compile Include="PAML\CodeMLSubClasses.cs" />
+    <Compile Include="PAML\ControlConfiguration.cs" />
+    <Compile Include="PAML\ExportToExcel.cs" />
+    <Compile Include="PAML\ModelPresets.cs" />
+    <Compile Include="PAML\OutputFile.cs" />
+    <Compile Include="PAML\Result.cs" />
+    <Compile Include="PAML\Tree.cs" />
+    <Compile Include="Genes\AlignedGeneSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\RecordSet.cs" />
+    <Compile Include="RecordSets\SubSet.cs" />
+    <Compile Include="Taxonomy\Taxon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\CreateDatabase_1_0_0_0.sql" />
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_1_0_0.sql" />
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_5_0.sql" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_1_2_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_1_3_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_1_2_1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_2_0_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_2_1_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_2_2_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_0_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_1_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_2_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_3_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_4_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_3_6_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codeml_template.ctl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_6.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_8.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_9.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_10.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_0_11.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_1_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_1_1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_1_2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_2_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_3_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_4_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_5_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_0.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_3.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_4.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_8.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_14.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_4_6_15.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_5_0_2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_5_0_5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_5_0_6.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_5_0_7.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

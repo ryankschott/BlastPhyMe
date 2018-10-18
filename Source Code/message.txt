@@ -1,0 +1,6 @@
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=31150; handshake=46;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at Pilgrimage.frmConnectToDatabase.ConnectToDatabase()
+   at System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument)
+ClientConnectionId:5f1f9eb7-ea77-43ef-a006-221bccec9407
+
+Additional details: System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out

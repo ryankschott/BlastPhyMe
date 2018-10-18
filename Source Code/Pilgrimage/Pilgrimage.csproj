@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C95BD692-F1BD-48EF-A4CD-F6DD9A831500}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pilgrimage</RootNamespace>
+    <AssemblyName>BlastPhyMe</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>autoList.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Demo\</OutputPath>
+    <DefineConstants>TRACE;DOCUMENTATION</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Beta\</OutputPath>
+    <DefineConstants>TRACE;BETA</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8E50873835105348F7471112841E67F20FE8F234</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Pilgrimage_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Documentation|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Documentation\</OutputPath>
+    <DefineConstants>TRACE;DOCUMENTATION</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Beta\</OutputPath>
+    <DefineConstants>TRACE;BETA</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EEB460|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\EEB460\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EEB460</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EEB460|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\EEB460\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EEB460</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta - EEB460|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Beta - EEB460\</OutputPath>
+    <DefineConstants>TRACE;BETA</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta - EEB460|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Beta - EEB460\</OutputPath>
+    <DefineConstants>TRACE;EEB460; BETA</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities\Activity.cs" />
+    <Compile Include="Activities\BlastSequencesWithLocalDatabase.cs" />
+    <Compile Include="Activities\ExportToDataFile.cs" />
+    <Compile Include="Activities\ExportToExcel.cs" />
+    <Compile Include="Activities\frmActivityProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activities\frmActivityProgress.Designer.cs">
+      <DependentUpon>frmActivityProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\frmActivityHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activities\frmActivityHistory.Designer.cs">
+      <DependentUpon>frmActivityHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\frmExceptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activities\frmExceptions.Designer.cs">
+      <DependentUpon>frmExceptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\ImportFromDataFile.cs" />
+    <Compile Include="Activities\PopulateFromGenBank.cs" />
+    <Compile Include="Activities\RunCodeMLAnalysis.cs" />
+    <Compile Include="Activities\RunPhyML.cs" />
+    <Compile Include="Activities\RunAlignment.cs" />
+    <Compile Include="Activities\SearchNCBIForTaxa.cs" />
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="Activities\BlastSequencesAtNCBI.cs" />
+    <Compile Include="Common\JobHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\JobHistoryForm.Designer.cs">
+      <DependentUpon>JobHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetDatabaseProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetDatabaseProperties.Designer.cs">
+      <DependentUpon>frmSetDatabaseProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThirdPartyComponentReferenceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThirdPartyComponentReferenceDetails.Designer.cs">
+      <DependentUpon>frmThirdPartyComponentReferenceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\Alignment\MUSCLE\frmCreateJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\Alignment\MUSCLE\frmCreateJob.Designer.cs">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmAnnotatedGeneDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmAnnotatedGeneDetails.Designer.cs">
+      <DependentUpon>frmAnnotatedGeneDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNAlignmentsFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNAlignmentsFilter.Designer.cs">
+      <DependentUpon>frmBlastNAlignmentsFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNAnnotations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNAnnotations.Designer.cs">
+      <DependentUpon>frmBlastNAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNLocalOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNLocalOptions.Designer.cs">
+      <DependentUpon>frmBlastNLocalOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNOptions.Designer.cs">
+      <DependentUpon>frmBlastNOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNResultsHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNResultsHistory.Designer.cs">
+      <DependentUpon>frmBlastNResultsHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmRequestDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmRequestDetails.Designer.cs">
+      <DependentUpon>frmRequestDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\DialogForm.Designer.cs">
+      <DependentUpon>DialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\EditNucleotideSequence\frmAddFeature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\EditNucleotideSequence\frmAddFeature.Designer.cs">
+      <DependentUpon>frmAddFeature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\EditNucleotideSequence\frmEditInterval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\EditNucleotideSequence\frmEditInterval.Designer.cs">
+      <DependentUpon>frmEditInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\EditNucleotideSequence\frmNucleotideSequenceFeatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\EditNucleotideSequence\frmNucleotideSequenceFeatures.Designer.cs">
+      <DependentUpon>frmNucleotideSequenceFeatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmBatchSetGeneName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmBatchSetGeneName.Designer.cs">
+      <DependentUpon>frmBatchSetGeneName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmImportFromBLASTNExeOutput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmImportFromBLASTNExeOutput.Designer.cs">
+      <DependentUpon>frmImportFromBLASTNExeOutput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmImportFromFlatFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmImportFromFlatFile.Designer.cs">
+      <DependentUpon>frmImportFromFlatFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\PhyML\frmCreateJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\PhyML\frmCreateJob.Designer.cs">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\PhyML\frmPhyMLResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\PhyML\frmPhyMLResults.Designer.cs">
+      <DependentUpon>frmPhyMLResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\PhyML\uctPhyMLOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\PhyML\uctPhyMLOptions.Designer.cs">
+      <DependentUpon>uctPhyMLOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\Alignment\frmAlignmentResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\Alignment\frmAlignmentResults.Designer.cs">
+      <DependentUpon>frmAlignmentResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\Alignment\PRANK\frmCreateJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\Alignment\PRANK\frmCreateJob.Designer.cs">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\uctGeneSequencesMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\uctGeneSequencesMain.Designer.cs">
+      <DependentUpon>uctGeneSequencesMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmCreateJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmCreateJob.Designer.cs">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmEditAnalysisConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmEditAnalysisConfiguration.Designer.cs">
+      <DependentUpon>frmEditAnalysisConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmEditTreeAdditionalOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmEditTreeAdditionalOptions.Designer.cs">
+      <DependentUpon>frmEditTreeAdditionalOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmEditTreeConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmEditTreeConfiguration.Designer.cs">
+      <DependentUpon>frmEditTreeConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmExportToExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmExportToExcel.Designer.cs">
+      <DependentUpon>frmExportToExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmFilterResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmFilterResults.Designer.cs">
+      <DependentUpon>frmFilterResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmJobHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmJobHistory.Designer.cs">
+      <DependentUpon>frmJobHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmJobProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmJobProgress.Designer.cs">
+      <DependentUpon>frmJobProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmResultDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmResultDetails.Designer.cs">
+      <DependentUpon>frmResultDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\frmResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAML\frmResults.Designer.cs">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\RowDataItem.cs" />
+    <Compile Include="PAML\uctAnalysisConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAML\uctAnalysisConfiguration.Designer.cs">
+      <DependentUpon>uctAnalysisConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\uctJobConfigurations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAML\uctJobConfigurations.Designer.cs">
+      <DependentUpon>uctJobConfigurations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\uctPAMLMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAML\uctPAMLMain.Designer.cs">
+      <DependentUpon>uctPAMLMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\uctAnalysisConfigurations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAML\uctAnalysisConfigurations.Designer.cs">
+      <DependentUpon>uctAnalysisConfigurations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\uctResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAML\uctResults.Designer.cs">
+      <DependentUpon>uctResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAML\uctTreeConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PAML\uctTreeConfiguration.Designer.cs">
+      <DependentUpon>uctTreeConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\AddToRecordSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\AddToRecordSetForm.Designer.cs">
+      <DependentUpon>AddToRecordSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmExportToFlatFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmExportToFlatFile.Designer.cs">
+      <DependentUpon>frmExportToFlatFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmFormatFieldNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmFormatFieldNames.Designer.cs">
+      <DependentUpon>frmFormatFieldNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmExportToExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmExportToExcel.Designer.cs">
+      <DependentUpon>frmExportToExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmExportToPilgrimageDataFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmExportToPilgrimageDataFile.Designer.cs">
+      <DependentUpon>frmExportToPilgrimageDataFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmImportDataFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmImportDataFile.Designer.cs">
+      <DependentUpon>frmImportDataFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmImportFromAlignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmImportFromAlignment.Designer.cs">
+      <DependentUpon>frmImportFromAlignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmEditRecordSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmEditRecordSet.Designer.cs">
+      <DependentUpon>frmEditRecordSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmEditSubSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmEditSubSet.Designer.cs">
+      <DependentUpon>frmEditSubSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmFilterGenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmFilterGenes.Designer.cs">
+      <DependentUpon>frmFilterGenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmManageRecordSets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmManageRecordSets.Designer.cs">
+      <DependentUpon>frmManageRecordSets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmManageSubSets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmManageSubSets.Designer.cs">
+      <DependentUpon>frmManageSubSets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmSelectSubSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmSelectSubSet.Designer.cs">
+      <DependentUpon>frmSelectSubSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmSelectSubSetInRecordSets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordSets\Management\frmSelectSubSetInRecordSets.Designer.cs">
+      <DependentUpon>frmSelectSubSetInRecordSets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search\frmSearchForTaxonomy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search\frmSearchForTaxonomy.Designer.cs">
+      <DependentUpon>frmSearchForTaxonomy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search\frmTaxonomyDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search\frmTaxonomyDetails.Designer.cs">
+      <DependentUpon>frmTaxonomyDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DraggableTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\uctSubSetsManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uctSubSetsManager.Designer.cs">
+      <DependentUpon>uctSubSetsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\uctSubSetView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\uctSubSetView.Designer.cs">
+      <DependentUpon>uctSubSetView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\frmEUtilitiesTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\frmEUtilitiesTest.Designer.cs">
+      <DependentUpon>frmEUtilitiesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\frmStringsAreTheSame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\frmStringsAreTheSame.Designer.cs">
+      <DependentUpon>frmStringsAreTheSame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\uctRecordSetGenes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\uctRecordSetGenes.Designer.cs">
+      <DependentUpon>uctRecordSetGenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\IsolatedStorageHelper.cs" />
+    <Compile Include="Utility\PropertyComparer.cs" />
+    <Compile Include="Utility\SortableBindingList.cs" />
+    <Compile Include="UserControls\DataGridViewHelper.cs" />
+    <Compile Include="GeneSequences\BlastN\uctBlastNAtNCBIJobHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\uctBlastNAtNCBIJobHistory.Designer.cs">
+      <DependentUpon>uctBlastNAtNCBIJobHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmSubjectGeneDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmSubjectGeneDetails.Designer.cs">
+      <DependentUpon>frmSubjectGeneDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNAlignments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\BlastN\frmBlastNAlignments.Designer.cs">
+      <DependentUpon>frmBlastNAlignments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnectToDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnectToDatabase.Designer.cs">
+      <DependentUpon>frmConnectToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageBox.Designer.cs">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgress.Designer.cs">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\frmGeneDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\frmGeneDetails.Designer.cs">
+      <DependentUpon>frmGeneDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\Search\frmSearchGenBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\Search\frmSearchGenBank.Designer.cs">
+      <DependentUpon>frmSearchGenBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneSequences\Search\frmSearchResultsGenBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneSequences\Search\frmSearchResultsGenBank.Designer.cs">
+      <DependentUpon>frmSearchResultsGenBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activities\SearchGenBankForNucleotides.cs" />
+    <Compile Include="Utility\Utility.cs" />
+    <EmbeddedResource Include="Activities\frmActivityProgress.resx">
+      <DependentUpon>frmActivityProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activities\frmActivityHistory.resx">
+      <DependentUpon>frmActivityHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activities\frmExceptions.resx">
+      <DependentUpon>frmExceptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\JobHistoryForm.resx">
+      <DependentUpon>JobHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetDatabaseProperties.resx">
+      <DependentUpon>frmSetDatabaseProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThirdPartyComponentReferenceDetails.resx">
+      <DependentUpon>frmThirdPartyComponentReferenceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\Alignment\MUSCLE\frmCreateJob.resx">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmAnnotatedGeneDetails.resx">
+      <DependentUpon>frmAnnotatedGeneDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmBlastNAlignmentsFilter.resx">
+      <DependentUpon>frmBlastNAlignmentsFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmBlastNAnnotations.resx">
+      <DependentUpon>frmBlastNAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmBlastNLocalOptions.resx">
+      <DependentUpon>frmBlastNLocalOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmBlastNOptions.resx">
+      <DependentUpon>frmBlastNOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmBlastNResultsHistory.resx">
+      <DependentUpon>frmBlastNResultsHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmRequestDetails.resx">
+      <DependentUpon>frmRequestDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\DialogForm.resx">
+      <DependentUpon>DialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\EditNucleotideSequence\frmAddFeature.resx">
+      <DependentUpon>frmAddFeature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\EditNucleotideSequence\frmEditInterval.resx">
+      <DependentUpon>frmEditInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\EditNucleotideSequence\frmNucleotideSequenceFeatures.resx">
+      <DependentUpon>frmNucleotideSequenceFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmBatchSetGeneName.resx">
+      <DependentUpon>frmBatchSetGeneName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmImportFromBLASTNExeOutput.resx">
+      <DependentUpon>frmImportFromBLASTNExeOutput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmImportFromFlatFile.resx">
+      <DependentUpon>frmImportFromFlatFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\PhyML\frmCreateJob.resx">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\PhyML\frmPhyMLResults.resx">
+      <DependentUpon>frmPhyMLResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\PhyML\uctPhyMLOptions.resx">
+      <DependentUpon>uctPhyMLOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\Alignment\frmAlignmentResults.resx">
+      <DependentUpon>frmAlignmentResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\Alignment\PRANK\frmCreateJob.resx">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\uctGeneSequencesMain.resx">
+      <DependentUpon>uctGeneSequencesMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmCreateJob.resx">
+      <DependentUpon>frmCreateJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmEditAnalysisConfiguration.resx">
+      <DependentUpon>frmEditAnalysisConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmEditTreeAdditionalOptions.resx">
+      <DependentUpon>frmEditTreeAdditionalOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmEditTreeConfiguration.resx">
+      <DependentUpon>frmEditTreeConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmExportToExcel.resx">
+      <DependentUpon>frmExportToExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmFilterResults.resx">
+      <DependentUpon>frmFilterResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmJobHistory.resx">
+      <DependentUpon>frmJobHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmJobProgress.resx">
+      <DependentUpon>frmJobProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmResultDetails.resx">
+      <DependentUpon>frmResultDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\frmResults.resx">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\uctAnalysisConfiguration.resx">
+      <DependentUpon>uctAnalysisConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\uctJobConfigurations.resx">
+      <DependentUpon>uctJobConfigurations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\uctPAMLMain.resx">
+      <DependentUpon>uctPAMLMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\uctAnalysisConfigurations.resx">
+      <DependentUpon>uctAnalysisConfigurations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\uctResults.resx">
+      <DependentUpon>uctResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAML\uctTreeConfiguration.resx">
+      <DependentUpon>uctTreeConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmExportToFlatFile.resx">
+      <DependentUpon>frmExportToFlatFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmFormatFieldNames.resx">
+      <DependentUpon>frmFormatFieldNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmExportToExcel.resx">
+      <DependentUpon>frmExportToExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmExportToPilgrimageDataFile.resx">
+      <DependentUpon>frmExportToPilgrimageDataFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmImportDataFile.resx">
+      <DependentUpon>frmImportDataFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmImportFromAlignment.resx">
+      <DependentUpon>frmImportFromAlignment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmEditRecordSet.resx">
+      <DependentUpon>frmEditRecordSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmEditSubSet.resx">
+      <DependentUpon>frmEditSubSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmFilterGenes.resx">
+      <DependentUpon>frmFilterGenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmManageRecordSets.resx">
+      <DependentUpon>frmManageRecordSets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmManageSubSets.resx">
+      <DependentUpon>frmManageSubSets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmSelectSubSet.resx">
+      <DependentUpon>frmSelectSubSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordSets\Management\frmSelectSubSetInRecordSets.resx">
+      <DependentUpon>frmSelectSubSetInRecordSets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search\frmSearchForTaxonomy.resx">
+      <DependentUpon>frmSearchForTaxonomy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search\frmTaxonomyDetails.resx">
+      <DependentUpon>frmTaxonomyDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\frmEUtilitiesTest.resx">
+      <DependentUpon>frmEUtilitiesTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\frmStringsAreTheSame.resx">
+      <DependentUpon>frmStringsAreTheSame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\uctBlastNAtNCBIJobHistory.resx">
+      <DependentUpon>uctBlastNAtNCBIJobHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmSubjectGeneDetails.resx">
+      <DependentUpon>frmSubjectGeneDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\BlastN\frmBlastNAlignments.resx">
+      <DependentUpon>frmBlastNAlignments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnectToDatabase.resx">
+      <DependentUpon>frmConnectToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBox.resx">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgress.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\frmGeneDetails.resx">
+      <DependentUpon>frmGeneDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\Search\frmSearchGenBank.resx">
+      <DependentUpon>frmSearchGenBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneSequences\Search\frmSearchResultsGenBank.resx">
+      <DependentUpon>frmSearchResultsGenBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="GeneSequences\uctRecordSetGenes.resx">
+      <DependentUpon>uctRecordSetGenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Documentation\Bootstrapper Package.pdf" />
+    <None Include="Documentation\Drag and Drop between list boxes - Beginner%27s Tutorial - CodeProject.pdf" />
+    <None Include="Documentation\Drag and Drop Tab Control - CodeProject.pdf" />
+    <None Include="Documentation\Finding the default application for opening a particular file type on Windows - Stack Overflow.pdf" />
+    <None Include="packages.config" />
+    <None Include="Pilgrimage_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="autoList.ico" />
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Phylip_16.png" />
+    <None Include="Resources\Warning_24.png" />
+    <None Include="Resources\Error_16.png" />
+    <None Include="Resources\Transparent_16.png" />
+    <None Include="Resources\Warning_16.png" />
+    <None Include="Resources\Trinity_16.png" />
+    <None Include="Resources\Settings.ico" />
+    <None Include="Resources\TreeView_48.png" />
+    <None Include="Resources\TreeView_16.png" />
+    <None Include="Resources\PhyML_48.png" />
+    <None Include="Resources\PhyML_16.png" />
+    <None Include="Resources\Rename.png" />
+    <None Include="Resources\net_bio_24.png" />
+    <None Include="Resources\net_bio_smaller.png" />
+    <None Include="Resources\Prank_16x161.png" />
+    <None Include="Resources\CMD_16x16.png" />
+    <None Include="Resources\CMD_48x48.png" />
+    <None Include="Resources\ComponentLogo_PRANK.png" />
+    <None Include="Resources\Ruler.png" />
+    <None Include="Resources\Table.png" />
+    <None Include="Resources\Prank_16x16.png" />
+    <None Include="Resources\net_bio_logo.jpg" />
+    <None Include="Resources\Icon 16.png" />
+    <None Include="Resources\DuplicateSequence.png" />
+    <None Include="Resources\Duplicate.png" />
+    <None Include="Resources\Mega6.png" />
+    <None Include="Resources\Gears.png" />
+    <None Include="Resources\XSDSchema_GraphLeftToRight.png" />
+    <None Include="Resources\TextDocument.png" />
+    <None Include="Resources\Excel Document.png" />
+    <None Include="Resources\ImportDocument.png" />
+    <None Include="Resources\ExportDocument.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\Document.png" />
+    <None Include="Resources\Folder.png" />
+    <None Include="Resources\OpenFolder.png" />
+    <None Include="Resources\NewFolder.png" />
+    <None Include="Resources\MoveToFolder.png" />
+    <None Include="Resources\Export.png" />
+    <None Include="Resources\PageUpHS.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\ncbi.png" />
+    <None Include="Resources\ncbi_transparent.png" />
+    <None Include="Resources\RightArrowReturn_Blue_16.png" />
+    <None Include="Resources\Move.png" />
+    <None Include="Resources\Folder_stuffed.png" />
+    <None Include="Resources\SychronizeListHS.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Copy.png" />
+    <None Include="Resources\Task.png" />
+    <None Include="Resources\Pending.png" />
+    <None Include="Resources\Find.png" />
+    <None Include="Resources\Open.png" />
+    <None Include="Resources\New.png" />
+    <None Include="Resources\autoList.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChangLab\ChangLab.csproj">
+      <Project>{5E700266-664C-4AE4-B1CE-F263619E5A0C}</Project>
+      <Name>ChangLab</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not "$(ConfigurationName)" == "Debug" ("C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\signtool.exe" sign /f "$(ProjectDir)pilgrimage.pfx" /p @darwin05 /t http://timestamp.verisign.com/scripts/timstamp.dll "$(TargetDir)$(TargetFileName)")</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

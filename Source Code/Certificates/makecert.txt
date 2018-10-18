@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\makecert" -sv pilgrimage.pvk -n "CN=Chang Lab" -len 1024 pilgrimage.cer -r
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\pvk2pfx" -pvk pilgrimage.pvk -spc pilgrimage.cer -pfx pilgrimage.pfx -po @darwin05
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\signtool" sign /f pilgrimage.pfx /p @darwin05 /t http://timestamp.verisign.com/scripts/timstamp.dll "bin\Debug\Pilgrimage.exe"

@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "http://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd"[]>
+<INSDSet>
+  <INSDSeq>
+    <INSDSeq_locus>NR_046177</INSDSeq_locus>
+    <INSDSeq_length>4094</INSDSeq_length>
+    <INSDSeq_strandedness>single</INSDSeq_strandedness>
+    <INSDSeq_moltype>RNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PRI</INSDSeq_division>
+    <INSDSeq_update-date>05-MAY-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>26-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Homo sapiens microtubule-associated protein, RP/EB family, member 2 (MAPRE2), transcript variant 5, long non-coding RNA</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_046177</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_046177.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_046177.1|</INSDSeqid>
+      <INSDSeqid>gi|374081841</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Homo sapiens (human)</INSDSeq_source>
+    <INSDSeq_organism>Homo sapiens</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Goldspink DA</INSDAuthor>
+          <INSDAuthor>Gadsby JR</INSDAuthor>
+          <INSDAuthor>Bellett G</INSDAuthor>
+          <INSDAuthor>Keynton J</INSDAuthor>
+          <INSDAuthor>Tyrrell BJ</INSDAuthor>
+          <INSDAuthor>Lund EK</INSDAuthor>
+          <INSDAuthor>Powell PP</INSDAuthor>
+          <INSDAuthor>Thomas P</INSDAuthor>
+          <INSDAuthor>Mogensen MM</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The microtubule end-binding protein EB2 is a central regulator of microtubule reorganisation in apico-basal epithelial differentiation</INSDReference_title>
+        <INSDReference_journal>J. Cell. Sci. 126 (PT 17), 4000-4014 (2013)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1242/jcs.129759</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>23813963</INSDReference_pubmed>
+        <INSDReference_remark>GeneRIF: EB2 is evidently important for initial microtubule reorganisation during epithelial polarisation, whereas its downregulation facilitates EB1 and ACF7 microtubule lattice association, microtubule-actin filament co-alignment and bundle formation.</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lopus M</INSDAuthor>
+          <INSDAuthor>Manatschal C</INSDAuthor>
+          <INSDAuthor>Buey RM</INSDAuthor>
+          <INSDAuthor>Bjelic S</INSDAuthor>
+          <INSDAuthor>Miller HP</INSDAuthor>
+          <INSDAuthor>Steinmetz MO</INSDAuthor>
+          <INSDAuthor>Wilson L</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Cooperative stabilization of microtubule dynamics by EB1 and CLIP-170 involves displacement of stably bound P(i) at microtubule ends</INSDReference_title>
+        <INSDReference_journal>Biochemistry 51 (14), 3021-3030 (2012)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1021/bi300038t</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22424550</INSDReference_pubmed>
+        <INSDReference_remark>GeneRIF: results suggest that EB1 and ClipCG12 act cooperatively to regulate microtubule dynamics (EB1)</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nogueira da Costa A</INSDAuthor>
+          <INSDAuthor>Mijal RS</INSDAuthor>
+          <INSDAuthor>Keen JN</INSDAuthor>
+          <INSDAuthor>Findlay JB</INSDAuthor>
+          <INSDAuthor>Wild CP</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Proteomic analysis of the effects of the immunomodulatory mycotoxin deoxynivalenol</INSDReference_title>
+        <INSDReference_journal>Proteomics 11 (10), 1903-1914 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1002/pmic.201000580</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>21462343</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>4</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Bruning-Richardson A</INSDAuthor>
+          <INSDAuthor>Langford KJ</INSDAuthor>
+          <INSDAuthor>Ruane P</INSDAuthor>
+          <INSDAuthor>Lee T</INSDAuthor>
+          <INSDAuthor>Askham JM</INSDAuthor>
+          <INSDAuthor>Morrison EE</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>EB1 is required for spindle symmetry in mammalian mitosis</INSDReference_title>
+        <INSDReference_journal>PLoS ONE 6 (12), E28884 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1371/journal.pone.0028884</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22216133</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>5</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wadle A</INSDAuthor>
+          <INSDAuthor>Thiel G</INSDAuthor>
+          <INSDAuthor>Mischo A</INSDAuthor>
+          <INSDAuthor>Jung V</INSDAuthor>
+          <INSDAuthor>Pfreundschuh M</INSDAuthor>
+          <INSDAuthor>Renner C</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Chromosomal localization and promoter analysis of the adenomatous polyposis coli binding protein RP1</INSDReference_title>
+        <INSDReference_journal>Oncogene 20 (41), 5920-5929 (2001)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1038/sj.onc.1204797</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>11593399</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>6</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Su LK</INSDAuthor>
+          <INSDAuthor>Qi Y</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Characterization of human MAPRE genes and their proteins</INSDReference_title>
+        <INSDReference_journal>Genomics 71 (2), 142-149 (2001)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1006/geno.2000.6428</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>11161807</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>7</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Juwana JP</INSDAuthor>
+          <INSDAuthor>Henderikx P</INSDAuthor>
+          <INSDAuthor>Mischo A</INSDAuthor>
+          <INSDAuthor>Wadle A</INSDAuthor>
+          <INSDAuthor>Fadle N</INSDAuthor>
+          <INSDAuthor>Gerlach K</INSDAuthor>
+          <INSDAuthor>Arends JW</INSDAuthor>
+          <INSDAuthor>Hoogenboom H</INSDAuthor>
+          <INSDAuthor>Pfreundschuh M</INSDAuthor>
+          <INSDAuthor>Renner C</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>EB/RP gene family encodes tubulin binding proteins</INSDReference_title>
+        <INSDReference_journal>Int. J. Cancer 81 (2), 275-284 (1999)</INSDReference_journal>
+        <INSDReference_pubmed>10188731</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>8</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Morrison EE</INSDAuthor>
+          <INSDAuthor>Wardleworth BN</INSDAuthor>
+          <INSDAuthor>Askham JM</INSDAuthor>
+          <INSDAuthor>Markham AF</INSDAuthor>
+          <INSDAuthor>Meredith DM</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>EB1, a protein which interacts with the APC tumour suppressor, is associated with the microtubule cytoskeleton throughout the cell cycle</INSDReference_title>
+        <INSDReference_journal>Oncogene 17 (26), 3471-3477 (1998)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1038/sj.onc.1202247</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>10030671</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>9</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Berrueta L</INSDAuthor>
+          <INSDAuthor>Kraeft SK</INSDAuthor>
+          <INSDAuthor>Tirnauer JS</INSDAuthor>
+          <INSDAuthor>Schuyler SC</INSDAuthor>
+          <INSDAuthor>Chen LB</INSDAuthor>
+          <INSDAuthor>Hill DE</INSDAuthor>
+          <INSDAuthor>Pellman D</INSDAuthor>
+          <INSDAuthor>Bierer BE</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The adenomatous polyposis coli-binding protein EB1 is associated with cytoplasmic and spindle microtubules</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. 95 (18), 10596-10601 (1998)</INSDReference_journal>
+        <INSDReference_pubmed>9724749</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>10</INSDReference_reference>
+        <INSDReference_position>1..4094</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Renner C</INSDAuthor>
+          <INSDAuthor>Pfitzenmeier JP</INSDAuthor>
+          <INSDAuthor>Gerlach K</INSDAuthor>
+          <INSDAuthor>Held G</INSDAuthor>
+          <INSDAuthor>Ohnesorge S</INSDAuthor>
+          <INSDAuthor>Sahin U</INSDAuthor>
+          <INSDAuthor>Bauer S</INSDAuthor>
+          <INSDAuthor>Pfreundschuh M</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>RP1, a new member of the adenomatous polyposis coli-binding EB1-like gene family, is differentially expressed in activated T cells</INSDReference_title>
+        <INSDReference_journal>J. Immunol. 159 (3), 1276-1283 (1997)</INSDReference_journal>
+        <INSDReference_pubmed>9233623</INSDReference_pubmed>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence was derived from AK296251.1, AC015967.8 and BM673789.1.; ~Summary: The protein encoded by this gene shares significant homology to the adenomatous polyposis coli (APC) protein-binding EB1 gene family. This protein is a microtubule-associated protein that is necessary for spindle symmetry during mitosis. It is thought to play a role in the tumorigenesis of colorectal cancers and the proliferative control of normal cells. Alternative splicing of this gene results in multiple transcript variants. [provided by RefSeq, Jan 2012]; ~Transcript Variant: This variant (5) uses an alternate 5' exon, compared to variant 1. This variant is represented as non-coding due to the presence of an upstream ORF that is predicted to interfere with translation of the primary ORF, as found in variant 2. Translation of the upstream ORF renders the transcript a candidate for nonsense-mediated mRNA decay (NMD).; ~Sequence Note: This RefSeq record was created from transcript and genomic sequence data to make the sequence consistent with the reference genome assembly. The genomic coordinates used for the transcript record were based on transcript alignments.; ~Publication Note: This RefSeq record includes a subset of the publications that are available for this gene. Please see the Gene record to access additional publications.; ##Evidence-Data-START## Transcript exon combination AK296251.1 [ECO:0000332] ##Evidence-Data-END##; COMPLETENESS: complete on the 3' end.</INSDSeq_comment>
+    <INSDSeq_primary>REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP~1-293               AK296251.1         1-293               ~294-378             AC015967.8         99958-100042        c~379-1152            AK296251.1         379-1152            ~1153-3704           AC015967.8         54442-56993         c~3705-4094           BM673789.1         1-390               c</INSDSeq_primary>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..4094</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>4094</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Homo sapiens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>transcribed RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:9606</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>chromosome</INSDQualifier_name>
+            <INSDQualifier_value>18</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>map</INSDQualifier_name>
+            <INSDQualifier_value>18q12.1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>1..4094</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>4094</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>microtubule-associated protein, RP/EB family, member 2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>GeneID:10982</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>HGNC:HGNC:6891</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>MIM:605789</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>1..4094</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>4094</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>microtubule-associated protein, RP/EB family, member 2, transcript variant 5</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>GeneID:10982</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>HGNC:HGNC:6891</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>MIM:605789</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>1..117</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>117</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_feature</INSDFeature_key>
+        <INSDFeature_location>84..155</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>155</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>COORDINATES: ab initio prediction:ORF Finder</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>upstream ORF that overlaps the primary ORF and has strong Kozak sequence; nonsense-mediated mRNA decay (NMD) candidate</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>118..245</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>118</INSDInterval_from>
+            <INSDInterval_to>245</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_feature</INSDFeature_key>
+        <INSDFeature_location>125..979</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>125</INSDInterval_from>
+            <INSDInterval_to>979</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>COORDINATES: alignment:Blast2seq::RefSeq|NM_001143826.2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>primary ORF</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>246..391</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>246</INSDInterval_from>
+            <INSDInterval_to>391</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>392..605</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>392</INSDInterval_from>
+            <INSDInterval_to>605</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>606..745</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>606</INSDInterval_from>
+            <INSDInterval_to>745</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>746..904</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>746</INSDInterval_from>
+            <INSDInterval_to>904</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>exon</INSDFeature_key>
+        <INSDFeature_location>905..4080</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>905</INSDInterval_from>
+            <INSDInterval_to>4080</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>inference</INSDQualifier_name>
+            <INSDQualifier_value>alignment:Splign:1.39.8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>polyA_signal</INSDFeature_key>
+        <INSDFeature_location>2443..2448</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>2443</INSDInterval_from>
+            <INSDInterval_to>2448</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>polyA_site</INSDFeature_key>
+        <INSDFeature_location>2470</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_point>2470</INSDInterval_point>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>polyA_signal</INSDFeature_key>
+        <INSDFeature_location>4055..4060</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>4055</INSDInterval_from>
+            <INSDInterval_to>4060</INSDInterval_to>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>polyA_site</INSDFeature_key>
+        <INSDFeature_location>4080</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_point>4080</INSDInterval_point>
+            <INSDInterval_accession>NR_046177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MAPRE2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>gene_synonym</INSDQualifier_name>
+            <INSDQualifier_value>EB1; EB2; RP1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcgttcctacaggtaatggggctggcacgagagcagcgccggggaccgccgtgagggcgcgcggaaatccagcccgttatataatggagcagacactgcctgcgacccctgctgcagttggggaatggcggtcaatgtgtattctacctcgataacccaagagactatgagcagacatgacatcattgcatgggttaatgacatagtatctttaaactacacaaaagtggaacagctttgttcaggagcggcctattgccaattcatggacatgctcttccctggctgcattagtttgaagaaagtaaaatttcaagcaaagctggaacatgaatatattcacaattttaaacttctgcaagcatcatttaagcgaatgaacgttgataaggtaattccagtggagaagctagtgaaaggacgtttccaggacaacctggattttattcaatggtttaagaaattctatgatgctaactacgatgggaaggagtatgatcctgtagaggcacgacaagggcaagatgcaattcctcctcctgaccctggtgaacagatcttcaacctgccaaaaaagtctcaccatgcaaactcccccacagcaggtgcagctaaatcaagtccagcagctaaaccaggatccacaccttctcgaccctcatcagccaaaagggcttcttccagtggctcagcatccaaatccgataaagatttagaaacgcaggtcatacagcttaatgaacaggtacattcattaaaacttgcccttgaaggcgtggaaaaggaaagggatttctactttgggaagttgagagagatcgagctactctgccaagaacacgggcaggaaaatgatgacctcgtgcagagactaatggacatcctgtatgcttcagaagaacacgagggccacacagaagagccggaagcagaggagcaagcccacgaacagcagcccccgcagcaggaagagtactgacccaccccggctgctcttgacacttccattgtgtgtgggaacgtttcttctggagaattggaacatgtgtggccccaagctcaacagaaaccagttgttcccaatctgccgttaccatcaacgcactgttgcatatgccagccactgcgcttggttcccattttctttgccaaggtgtattagcggacggccctctggccacctacccgagagatcgtagggtcacatacatccaacttcaccacttggctgcttgagattggttctgctcttttcttcatttctttccagaacaactctttcccaccccaacaccactgccaccacccctctttttatcctggtgtgaaacaatggtaatttgatatatggtatttatattggcatttttcaacccagtgtcactagatgtcacacacatttgtggtgctttgatgtttgcaagtctaacctctgaacataaatttggtcaaataattggaacaaagggaaacagatacttgatatgaaagccataatgacggtgacttgtgtcgtgggggaaaacataaggtcattttctccctctactcacaatactaaagggaaaaaatggattcaaagctaggatttcagggcccagcagtgttcctccatcagcatgttagacaactacacagtatgttgttagttttgaaagacattcactcaaggaaaacaccatctcaactttgcccgctcaccatgtcccttgcccccatgtagcccatttcccaggttatgctcttttctttctcagggtcctctttggtgggcagccactccccgagatgttgccatcagttttctgcagtccaaagagggtatggttaggtacgggtcttcctgcctcattcctcttcctctttgtgtaggtttcagccacaaaactgtcattcactctaggggacccctactaaagggtaacttcaggtgtgcagccctgagctccaaggctctgcaccatgccacacacttgctgtaaggctagaagtgaagaccttattaataggagcataattgcgagggagaatcatggttctgcagtctggtgtagacactggaataacagcacagaaaaatctatgactcccaatatcttctagaataaagaattttccctctttaacacaagggccctccttgtcattgaccttagctaaaccatggcaattcataaatagaggaaacattaatgaattaaaagcattccttattttttaactaatatttgtacattttcttagtctctttccaagtctttgcctcttttttttctttatttttattttttcctttgacagatggtatcccttcctggatcattcatttcaccttggtttctaactttaggtttactttcacttgttatttgacttagcaggtgcaacaaaaacaagaaacaaatgtgcccaccccactttccgcttaactgaaaagcttaaaataaatttctgaattatgtatcctgaagctttgaaatttctttattaatcgatgaaatatgaattctaaattctagcattgaagcttttcaccaaaagaagtctctccaaaataaatcttttgcagcaaagtgatatttattgagttatgtggaaaagatggcttgtatttttcagattattacaacacactgtgcagaattagacagatgttccgtggtgtttggtttccctttcttctctctcctgctcactctgcattatagcagcagcttatttctctaaggctggacagcctggctctcggcagtgacgtcctcccacacctggtcacaagtagtagtggctgtgctatacccagcatcatgcttaacagcgtgttgcccttctgagcctgttgtactcactgatctctttaaaaacaaaaaatagctcttgtaaaaggtcacaataactctatgcacctgatactgcagtggttcctaggccattcttcatctgctctggacatctcagtcatacccaatgctcagtggatcatgaccaaactcctgtcatgtggatgcacgtgagtgggtagcagggagtcaggatcctgccttctccagcaaccccttactgctgtataacttgcataagcctccctggtgactcttgcaggaaccactccattgccctccagctccccagccttctcagttataaacatgctggccagatctcttagcctgcaaagagaactttccccagtcaccatagaccattctccttcctgaaggcttggggcagaccattcgtttatttagagaagagctatacattcttctttctggtcccatcttaaacgtcttctgttgtgctgcaccccagatggtgtctcagatgctttggggaatctttaacagctgaatttgagtcagtcctcttaggctgcacctccagcctctgcagatcccccctcatttcccatggatggtgggaccccattattctctcatctcggcattcagggaacagtttccttagcggcccctggtcacatgtcatcgggctgggcaggaagcgtccctgattgcgtgctccacttctccctctcaggaagcccagtttcatccttagtaccccccctcgtgcccgctgtcggctggttatagcacttccactgctactgtcagataggaagtgatcgaagcagggggcaaagagaaagcccatatttgttctaagcagaaaagcaggaaaaaaaaaaaaaaaaaagaaagaaaaacacctgttgacctgagagaagtaaattccagaagggaaccaagaactcttcccttccctggtgagtatttccattattccgttaaggtttaatatgcattcagattacttttactaaataggacaccataaagcttttgttatatattaaatgtaaactgaaaggaatgtaaacatatgtattgttaattataaatatagataagtaatgacataatagatgaaaaagtcttattcagatgtatcacattcattttacattacccacctattgtcgcatggtagaatagttttttgtctctgaatatgtgaataacttgacttgcattgatctttttacatatttaataaaaaaaaaagtatatgttaaaaaaaaaaaaaaaaaa</INSDSeq_sequence>
+  </INSDSeq>
+</INSDSet>
