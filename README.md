@@ -18,5 +18,5 @@ A detailed description of BlastPhyMe as well as a guide for its use can be found
 
 # Quick Installation Guide
 
-Download the latest full release from: https://github.com/ryankschott/BlastPhyMe/releases
+Download the latest full release from: https://github.com/ryankschott/BlastPhyMe/releases.
 Extract the folder and run the contained setup.exe file. This will install BlastPhyMe as well as its prerequites. For a full installation guide as well as a list of other programs BlastPhyMe can interact with see the guide here: https://github.com/ryankschott/BlastPhyMe/blob/master/BlastPhyMe%20Installation%20Guide%20-%20v1.5.0.12.pdf
