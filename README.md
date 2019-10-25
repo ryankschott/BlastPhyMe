@@ -5,8 +5,13 @@ BLAST, PHYLOGENIES, AND MOLECULAR EVOLUTION
 BlastPhyMe: A toolkit for rapid generation and analysis of protein-coding sequence datasets
 
 Ryan K Schott\*1,#, Daniel Gow\*2, Belinda SW Chang1,2
-1Department of Ecology and Evolutionary Biology, 2Department of Cell and Systems Biology, University of Toronto, Ontario, Canada
+
+1Department of Ecology and Evolutionary Biology
+
+2Department of Cell and Systems Biology, University of Toronto, Ontario, Canada
+
 #Current Address: Department of Vertebrate Zoology, National Museum of National History, Smithsonian Institution, Washington DC, USA
+
 *Equal contribution
 
 https://www.biorxiv.org/content/10.1101/059881
